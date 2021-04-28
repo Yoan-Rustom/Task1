@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    cout << "Enter the border numbers of a number sequence from n to m, which has to be positive."<< endl;
     int n;
     int m;
     int guessnum = 0;
