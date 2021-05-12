@@ -16,7 +16,7 @@ int main()
 
 
     srand(time(0)); //seed random number generator
-    int num = rand() % m + n; // random number between 1 and 100
+    int num = rand() % (m - n + 1) + n; // random number between 1 and 100
     cout << "Guess My Number Game\n\n";
 
     int guess;
